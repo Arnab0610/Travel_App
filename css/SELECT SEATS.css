@@ -1,0 +1,150 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.app-screen{
+    width: 480px;
+    max-width: 480px;
+    min-width: 480px;
+    height: 768px;
+    border: none;
+    overflow-y:auto;
+    margin: 15px auto;
+    border-radius: 25px;
+    position: relative;
+
+}
+.app-header{
+    width: 100%;
+    padding: 10px;
+    background:#662FFF;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+.app-body{
+    width: 100%;
+    /* padding: 10px; */
+    /* background:yellow ; */
+    /* height: 768px; */
+
+}
+.app-footer{
+    width: 100%;
+    padding: 10px;
+    background: rgb(224, 224, 224);
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+}
+.app-container{
+    background-color:#662FFF ;
+
+}
+.app-para{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.app-para-1{
+    color: #F45BAF;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.app-para-2{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.app-container-2{
+    background-color: #f0f4ff;
+
+}
+.app-para-3{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.app-para-4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -14px;
+}
+
+.app-sets
+{   
+    position: relative;
+    width: 100%;
+}
+.app-img777{
+    width: 100%;
+    /* height: 541px; */
+    text-align: right;
+    margin-top: -194px;
+}
+
+.app-sets-booking
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.app-btn-6{
+    width: 14%;
+    height: 47px;
+    background-color: white;
+    border: 3px solid gray;
+}
+.app-btn-6:hover{
+    background-color:rgb(255, 255, 255);
+    border: 3px solid gray;
+}
+.app-btn-7{
+    width: 14%;
+    height: 47px;
+    background-color:#F45BAF;
+}
+.app-btn-7:hover{
+    background-color:#F45BAF;
+}
+.app-btn-9{
+    width: 14%;
+    height: 47px;
+    background-color: gray;
+}
+.app-btn-9:hover{
+    background-color:gray;
+}
+.app-btn-8{
+    width: 14%;
+    height: 47px;
+    background-color:#ffffff;
+}
+.app-btn-1{
+    width: 419px;
+    height: 45px;
+    background-color: #F45BAF;
+    color: white;
+    border: none;
+    font-weight: bold;
+    margin-left: 21px;
+
+}
+.app-btn-1:hover{
+    background-color:#F45BAF ;
+    color:white ;
+
+}

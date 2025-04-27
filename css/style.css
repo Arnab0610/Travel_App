@@ -1,0 +1,89 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.app-screen{
+    width: 480px;
+    max-width: 480px;
+    min-width: 480px;
+    height: 768px;
+    border: none;
+    /* overflow-y:auto; */
+    margin: 15px auto;
+    border-radius: 25px;
+    position: relative;
+
+}
+
+.app-body{
+    width: 100%;
+    /* padding: 10px; */
+    /* background: ; */
+    /* height: 768px; */
+
+}
+
+ .img{
+    width: 100%;
+    border-radius: 25px;
+}
+.intro {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 87%;
+    padding: 1rem;
+    padding-top: 30%;
+    background: linear-gradient(transparent, #662FFF, #662FFF, #662FFF);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+  }
+  .app-intro-titel{
+    color: white;
+    
+  }
+.app-p3{
+    font-size: 22px;
+    /* margin-top: -28px; */
+    color: #937DFF;
+}
+.app-btn-1{
+    width: 419px;
+    height: 45px;
+    background-color: #F45BAF;
+    color: white;
+    border: none;
+    font-weight: bold;
+
+}
+.app-btn-1:hover{
+    background-color:#F45BAF ;
+    color:white ;
+
+}
+.app-btn-2:hover{
+    background-color:transparent ;
+    color:white ;
+    border: 3px solid #F45BAF;
+
+}
+.app-btn-2{
+    width: 419px;
+    height: 45px;
+    border: 3px solid #F45BAF;
+    background: transparent;
+    color: white;
+    font-weight:bold;
+
+    
+}
